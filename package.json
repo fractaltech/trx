@@ -1,0 +1,28 @@
+{
+  "name": "trx",
+  "version": "0.0.0",
+  "description": "redis-based distributed transactions for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fractaltech/trx.git"
+  },
+  "keywords": [
+    "microservices",
+    "transactions",
+    "redis"
+  ],
+  "author": "Kapil Verma <kapv89@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fractaltech/trx/issues"
+  },
+  "homepage": "https://github.com/fractaltech/trx#readme",
+  "dependencies": {
+    "redis": "^2.8.0",
+    "uuid": "^3.3.2"
+  }
+}
